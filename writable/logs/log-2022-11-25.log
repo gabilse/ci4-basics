@@ -1,0 +1,73 @@
+CRITICAL - 2022-11-25 04:50:35 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci4-basics\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4-basics\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4-basics\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4-basics\app\Controllers\Login.php(20): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4-basics\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4-basics\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-25 04:51:31 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci4-basics\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4-basics\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4-basics\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4-basics\app\Controllers\Login.php(20): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4-basics\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4-basics\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-25 04:53:00 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci4-basics\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4-basics\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4-basics\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4-basics\app\Controllers\Login.php(20): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4-basics\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4-basics\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-25 05:14:30 --> Call to a member function userdata() on null
+#0 C:\xampp\htdocs\ci4-basics\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ci4-basics\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\ci4-basics\app\Controllers\Home.php(7): view('home')
+#3 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4-basics\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4-basics\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-11-25 05:14:43 --> Call to a member function userdata() on null
+#0 C:\xampp\htdocs\ci4-basics\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ci4-basics\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\ci4-basics\app\Controllers\Home.php(7): view('home')
+#3 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4-basics\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4-basics\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-11-25 05:15:34 --> Call to a member function userdata() on null
+#0 C:\xampp\htdocs\ci4-basics\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ci4-basics\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\ci4-basics\app\Controllers\Home.php(7): view('home')
+#3 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4-basics\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4-basics\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-11-25 05:15:44 --> Call to a member function userdata() on null
+#0 C:\xampp\htdocs\ci4-basics\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ci4-basics\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\ci4-basics\app\Controllers\Home.php(7): view('home')
+#3 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci4-basics\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4-basics\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4-basics\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
